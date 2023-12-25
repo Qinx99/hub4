@@ -6,7 +6,7 @@ menu.onclick = function () {
 };
 
 function home(){
-    window.location.href = '../index.html'
+    window.location.href = 'index.html'
 }
 
 function hub1(){
@@ -18,13 +18,13 @@ function hub2(){
 }
 
 function featuredgames(){
-    window.location.href = 'featuredgames.html'
+    window.location.href = 'htmls/featuredgames.html'
 }
 
 function events(){
-    window.location.href = 'events.html'
+    window.location.href = 'htmls/events.html'
 }
 
 function updates(){
-    window.location.href = 'updates.html'
+    window.location.href = 'htmls/updates.html'
 }
