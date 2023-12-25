@@ -1,0 +1,257 @@
+@import url('https://fonts.cdnfonts.com/css/origami-mommy');
+@import url('https://fonts.cdnfonts.com/css/fipps');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  height: 60px;
+  border-bottom: black solid;
+  background: lightblue;
+  font-family: 'Origami Mommy', sans-serif;
+}
+
+.title h1 {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  transform: translate(-1%, -50%);
+}
+
+.links .home,
+.links .hub1,
+.links .hub2,
+.links .genres,
+.links .featuredgames,
+.links .events,
+.links .updates {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.links .home {
+  transition: 0.1s;
+}
+
+.links .hub1 {
+  transition: 0.2s;
+}
+
+.links .hub2 {
+  transition: 0.3s;
+}
+
+.links .genres {
+  transition: 0.4s;
+}
+
+.links .featuredgames {
+  transition: 0.5s;
+}
+
+.links .events {
+  transition: 0.6s;
+}
+
+.links .updates {
+  transition: 0.7s;
+}
+
+.links.change .home {
+  opacity: 1;
+  visibility: visible;
+}
+
+.links.change .hub1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.links.change .hub2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.links.change .genres {
+  opacity: 1;
+  visibility: visible;
+}
+
+.links.change .featuredgames {
+  opacity: 1;
+  visibility: visible;
+}
+
+.links.change .events {
+  opacity: 1;
+  visibility: visible;
+}
+
+.links.change .updates {
+  opacity: 1;
+  visibility: visible;
+}
+
+.home {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  top: 15.8%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Fipps', sans-serif;
+  font-size: 30px;
+}
+
+.home:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.hub1 {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  top: 27.6%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Fipps', sans-serif;
+  font-size: 30px;
+}
+
+.hub1:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.hub2 {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  top: 39.3%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Fipps', sans-serif;
+  font-size: 30px;
+}
+
+.hub2:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.featuredgames {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  top: 51%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Fipps', sans-serif;
+  font-size: 25px;
+}
+
+.featuredgames:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.events {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  top: 62.6%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Fipps', sans-serif;
+  font-size: 30px;
+}
+
+.events:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.updates {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  top: 74.3%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Fipps', sans-serif;
+  font-size: 30px;
+}
+
+.updates:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.menu,
+.menu img {
+  width: 60px;
+}
+
+.menu {
+  height: 57px;
+  position: absolute;
+  top: 4.5%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+  background: lightblue;
+}
+
+.menu:hover {
+  cursor: pointer;
+  filter: brightness(105%);
+}
+
+.container {
+  background-color: navajowhite;
+  height: 100vh;
+  text-align: center;
+}
+
+.container h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.container .one {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.container .two {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.container p {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -70%);
+}
